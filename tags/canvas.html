@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+    <style type="text/css">
+        body {
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="square"></canvas>
+
+    <script type="text/javascript">
+        const square = document.querySelector('#square')
+        const context = square.getContext('2d')
+
+        context.fillStyle = '#f00'
+        context.fillRect(0, 0, 100, 100)
+    </script>
+</body>
+</html>
