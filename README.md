@@ -10,3 +10,5 @@ Curso de HTML5 da hcode, estou estudando para aperfeiçoar meus conhecimentos co
 Atributos globais - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/atributos-globais]
 
 Tags - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/tags]
+
+Eventos - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/eventos]
