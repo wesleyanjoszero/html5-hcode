@@ -15,6 +15,7 @@ Eventos - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/eventos]
 
 Tela Login - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Tela-Login]
 
+Tabuada - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Tabuada]
 
 ## Projeto Tela Login
 ![Projeto Tela Login HTML5](./image/Tela-Login.png)
