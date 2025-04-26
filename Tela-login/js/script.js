@@ -18,7 +18,4 @@ document.querySelector('#form-login').addEventListener('submit', e => {
         alert('Dados informados com sucesso !')
         console.info('Dados informados com sucesso !')  
     }
-
-    // let stringJSON = JSON.stringify(json)
-    // let jsonParse = JSON.parse(stringJSON)
 })
