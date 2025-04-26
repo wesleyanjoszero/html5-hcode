@@ -13,6 +13,9 @@ body {
     max-width: 300px;
     margin: auto;
     padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #000a;
 }
 
 .content-center .text-center {
@@ -31,4 +34,11 @@ body {
 .content-center button {
     width: 100%;
     padding: 10px 5px;
+    border: none;
+    outline: none;
+}
+
+.content-center input {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
 }
