@@ -11,12 +11,12 @@
     <header>
         <form action="" id="register">
             <p>Cadastre-se</p>
-            <div class="field"><input type="text" placeholder="Digite seu nome..."></div>
-            <div class="field"><input type="email" placeholder="Digite seu e-mail..."></div>
+            <div class="field"><input type="text" placeholder="Digite seu nome..." name="name" autocomplete="name"></div>
+            <div class="field"><input type="email" placeholder="Digite seu e-mail..." name="email" autocomplete="email"></div>
             <div class="field"><input type="date" placeholder="Data de nascimento..."></div>
             <div class="field">
-                <label for=""><input type="radio" name="gender" value="m"><span>Masculino</span></label>
-                <label for=""><input type="radio" name="gender" value="f"><span>Feminino</span></label>
+                <label><input type="radio" name="gender" value="m"><span>Masculino</span></label>
+                <label><input type="radio" name="gender" value="f"><span>Feminino</span></label>
             </div>
             <button type="submit">Registar</button>
         </form>
@@ -25,7 +25,7 @@
                 <div id="logo">
                     Buniness
                 </div>
-                <nav class="menu open">
+                <nav class="menu">
                     <button type="button" class="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
                     <div class="backdrop"></div>
                     <ul>
