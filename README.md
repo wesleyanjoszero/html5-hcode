@@ -38,7 +38,7 @@ Uma painel com input feito em __HTML5__, utilizando __JavaScript__ para criar as
 Uma simples lista de tarefas feita com __HTML5__, __CSS3__ e __JavaScript__. Podemos adicionar tarefas, marcar como concluídas e excluir.
 
 ## Site Responsivo
-![Site Responsivo HTML5](./image/lista-tarefa-1.png)
-![Site Responsivo HTML5](./image/lista-tarefa-2.png)
+![Site Responsivo HTML5](./image/site-responsivo-1.png)
+![Site Responsivo HTML5](./image/site-responsivo-2.png)
 
 Uma simples landing page de uma página inicial de exemplo feita com HTML5, CSS3 e JavaScript. Totalmente responsivo com menu mobile. 
