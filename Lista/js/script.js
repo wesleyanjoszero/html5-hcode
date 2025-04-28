@@ -1,9 +1,7 @@
 let data = []
 
 function renderTodo() {
-
     document.querySelector('.todo').innerHTML = ''
-
     data.forEach(task => {
         let li = document.createElement('li')
         li.innerHTML = 
@@ -21,17 +19,14 @@ function renderTodo() {
             }
     
         })
-
         li.querySelector('button').addEventListener('click', e => {
-            console.warn('Você vai deletar este item ?')
+            console.dir(e.target.parentNode.querySelector('input').id.split('-')[1])
         })
         document.querySelector('.todo').append(li)
     })
-
 }
 
 document.querySelector('#new-task').addEventListener('keyup', e => {
-    
     if (e.key === 'Enter') {
         data.push({
             id: data.length + 1,
@@ -40,7 +35,6 @@ document.querySelector('#new-task').addEventListener('keyup', e => {
         e.target.value = ''
         renderTodo()
     }
-
 })
 
 renderTodo()
