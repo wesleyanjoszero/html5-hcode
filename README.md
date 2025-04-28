@@ -26,3 +26,9 @@ Uma tela de login utilizando estrutura HTML5 !
 ![Projeto Tabuada HTML5](./image/Tabuada.png)
 
 Uma painel com input feito em __HTML5__, utilizando __JavaScript__ para criar as linhas dinâmicamente com os valores !
+
+## Projeto Lista Tarefas
+![Projeto Lista Tarefas HTML5](./image/lista-tarefa-1.png)
+![Projeto Lista Tarefas HTML5](./image/lista-tarefa-2.png)
+
+Uma simples lista de tarefas feita com __HTML5__, __CSS3__ e __JavaScript__. Podemos adicionar tarefas, marcar como concluídas e excluir.
