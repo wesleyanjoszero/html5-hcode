@@ -1,12 +1,12 @@
 ![logotipo html5](./image/html5-240.png)
 
 # html5-hcode
-Curso de HTML5 completo da hcode
+Curso sobre __HTML5__ completo da hcode. Este curso conta com conteúdo sobre tags, atributos, eventos e projetos.
 
 ## Assunto
-Curso de HTML5 da hcode, estou estudando para aperfeiçoar meus conhecimentos com essa linguagem de marcação. Meu objetivo e rever tags, atributos e utilização de eventos na estrutura da parte de front-end com HTML5.
+Curso de __HTML5__ da hcode, estou estudando para aperfeiçoar meus conhecimentos com essa linguagem de marcação. Meu objetivo e rever tags, atributos e utilização de eventos na estrutura da parte de front-end com HTML5. Neste curso podemos ver tecnologias como: __CSS3__ e __JavaScript__
 
-## Seção
+## Links
 Atributos globais - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/atributos-globais]
 
 Tags - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/tags]
@@ -24,7 +24,7 @@ Site Responsivo - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Site
 ## Projeto Tela Login
 ![Projeto Tela Login HTML5](./image/Tela-Login.png)
 
-Uma tela de login utilizando estrutura HTML5 !
+Uma simples tela de login utilizando estrutura __HTML5__ !
 
 ## Projeto Tabuada
 ![Projeto Tabuada HTML5](./image/Tabuada.png)
@@ -41,4 +41,4 @@ Uma simples lista de tarefas feita com __HTML5__, __CSS3__ e __JavaScript__. Pod
 ![Site Responsivo HTML5](./image/site-responsivo-1.png)
 ![Site Responsivo HTML5](./image/site-responsivo-2.png)
 
-Uma simples landing page de uma página inicial de exemplo feita com HTML5, CSS3 e JavaScript. Totalmente responsivo com menu mobile. 
+Uma simples landing page de uma página inicial de exemplo feita com __HTML5__, __CSS3__ e __JavaScript__. Totalmente responsivo com menu mobile. 
