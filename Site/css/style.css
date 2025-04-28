@@ -145,6 +145,10 @@ footer .menu a {
     color: #6c757d;
 }
 
+.menu .open-menu {
+    display: none;
+}
+
 @media(max-width: 450px) {
     .menu ul {
         display: none;
@@ -155,5 +159,24 @@ footer .menu a {
         margin: 0 5%;
         max-width: initial;
         right: initial;
+    }
+
+    .menu .open-menu {
+        display: block;
+        font-size: 2em;
+        padding: .9rem;
+        flex: 1;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+
+    .menu {
+        width: 60px;
+        flex: initial;
+    }
+
+    header .header-border {
+        justify-content: space-between;
     }
 }
