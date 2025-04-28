@@ -17,6 +17,8 @@ Tela Login - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Tela-Logi
 
 Tabuada - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Tabuada]
 
+Lista de Tarefas - [https://github.com/wesleyanjoszero/html5-hcode/tree/main/Lista-Tarefas]
+
 ## Projeto Tela Login
 ![Projeto Tela Login HTML5](./image/Tela-Login.png)
 
