@@ -1,7 +1,9 @@
 let data = []
 
-function renderTodo() {
+function renderTodo() 
+{
     document.querySelector('.todo').innerHTML = ''
+    
     data.forEach(task => {
         let li = document.createElement('li')
         li.innerHTML = 
@@ -10,28 +12,25 @@ function renderTodo() {
         <label for="task-${task.id}">${task.title}</label>
         <button type="button">X</button>
         `
+    
         li.querySelector('input').addEventListener('change', e => {
-            
             if (e.target.checked) {
                 li.classList.add('complete')
             } else {
                 li.classList.remove('complete')
             }
-    
         })
+    
         li.querySelector('button').addEventListener('click', e => {
-            let btn = e.target
-            let li = btn.parentNode
-            let input = li.querySelector('input')
-            let id = input.id
-            let idArray = id.split('-')
-            let todoId = idArray[1]
+            let btn = e.target.parentNode.querySelector('input').id.split('-')[1]
             let title = li.querySelector('label').innerText
+
             if (confirm(`Deseja realmente excluir a tarefa ${title} ?`)) {
-                data = data.filter(task => task.id !== parseInt(todoId))
+                data = data.filter(task => task.id !== parseInt(btn))
                 renderTodo()
             }
         })
+
         document.querySelector('.todo').append(li)
     })
 }
@@ -42,6 +41,7 @@ document.querySelector('#new-task').addEventListener('keyup', e => {
             id: data.length + 1,
             title: e.target.value
         })
+
         e.target.value = ''
         renderTodo()
     }
