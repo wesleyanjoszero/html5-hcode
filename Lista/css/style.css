@@ -138,3 +138,19 @@ footer {
     list-style: none;
     padding: 0;
 }
+
+.todo li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.todo li input {
+    width: initial;
+    margin-right: 10px;
+}
+
+.todo li.complete {
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
