@@ -1,17 +1,4 @@
-let data = [{
-    id: 1,
-    title: 'Estudar HTML5'
-},
-{
-    id: 2,
-    title: 'Estudar CSS3'
-}, {
-    id: 3,
-    title: 'Estudar JavaScript'
-}, {
-    id: 4,
-    title: 'Estudar PHP'
-}]
+let data = []
 
 function renderTodo() {
 
@@ -23,6 +10,7 @@ function renderTodo() {
         `
         <input type="checkbox" id="task-${task.id}">
         <label for="task-${task.id}">${task.title}</label>
+        <button type="button">X</button>
         `
         li.querySelector('input').addEventListener('change', e => {
             
@@ -32,6 +20,10 @@ function renderTodo() {
                 li.classList.remove('complete')
             }
     
+        })
+
+        li.querySelector('button').addEventListener('click', e => {
+            console.warn('Você vai deletar este item ?')
         })
         document.querySelector('.todo').append(li)
     })
